@@ -516,6 +516,12 @@
     "last_pr": "2026-05-16T10:12:15.090Z"
   },
   {
+    "username": "D3CC",
+    "total_prs": 2,
+    "first_pr": "2026-05-16T11:56:16.051Z",
+    "last_pr": "2026-05-16T11:59:23.049Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -796,11 +802,5 @@
     "total_prs": 1,
     "first_pr": "2026-05-16T11:38:28.534Z",
     "last_pr": "2026-05-16T11:38:28.534Z"
-  },
-  {
-    "username": "D3CC",
-    "total_prs": 1,
-    "first_pr": "2026-05-16T11:56:16.051Z",
-    "last_pr": "2026-05-16T11:56:16.051Z"
   }
 ]
