@@ -168,6 +168,12 @@
     "last_pr": "2026-05-13T08:21:26Z"
   },
   {
+    "username": "zhangjiayang6835-cyber",
+    "total_prs": 27,
+    "first_pr": "2026-05-26T17:33:54.308Z",
+    "last_pr": "2026-05-28T17:34:03.133Z"
+  },
+  {
     "username": "xlocalvn-svg",
     "total_prs": 26,
     "first_pr": "2026-05-13T07:25:35Z",
@@ -582,6 +588,12 @@
     "last_pr": "2026-05-20T11:58:09.920Z"
   },
   {
+    "username": "yossweh",
+    "total_prs": 8,
+    "first_pr": "2026-05-28T14:02:57.271Z",
+    "last_pr": "2026-05-28T16:20:42.568Z"
+  },
+  {
     "username": "Mburdo",
     "total_prs": 7,
     "first_pr": "2026-05-13T15:20:17Z",
@@ -706,12 +718,6 @@
     "total_prs": 6,
     "first_pr": "2026-05-16T17:02:55.837Z",
     "last_pr": "2026-05-27T02:17:30.464Z"
-  },
-  {
-    "username": "zhangjiayang6835-cyber",
-    "total_prs": 6,
-    "first_pr": "2026-05-26T17:33:54.308Z",
-    "last_pr": "2026-05-28T04:14:30.109Z"
   },
   {
     "username": "CuboYe",
@@ -862,12 +868,6 @@
     "total_prs": 5,
     "first_pr": "2026-05-21T11:42:57.311Z",
     "last_pr": "2026-05-21T16:04:04.468Z"
-  },
-  {
-    "username": "yossweh",
-    "total_prs": 5,
-    "first_pr": "2026-05-28T14:02:57.271Z",
-    "last_pr": "2026-05-28T14:31:43.382Z"
   },
   {
     "username": "spqrcode",
@@ -1134,6 +1134,12 @@
     "last_pr": "2026-05-28T02:00:59.552Z"
   },
   {
+    "username": "jjb9707",
+    "total_prs": 3,
+    "first_pr": "2026-05-28T13:18:17.856Z",
+    "last_pr": "2026-05-28T16:24:55.412Z"
+  },
+  {
     "username": "Saumya-Verma123",
     "total_prs": 2,
     "first_pr": "2026-05-13T11:20:03Z",
@@ -1332,10 +1338,10 @@
     "last_pr": "2026-05-28T12:55:00.336Z"
   },
   {
-    "username": "jjb9707",
+    "username": "vietlinhh02",
     "total_prs": 2,
-    "first_pr": "2026-05-28T13:18:17.856Z",
-    "last_pr": "2026-05-28T13:54:58.975Z"
+    "first_pr": "2026-05-28T17:53:27.011Z",
+    "last_pr": "2026-05-28T17:57:21.682Z"
   },
   {
     "username": "ErenCankutUYSAL",
@@ -1876,5 +1882,23 @@
     "total_prs": 1,
     "first_pr": "2026-05-28T14:14:57.310Z",
     "last_pr": "2026-05-28T14:14:57.310Z"
+  },
+  {
+    "username": "nkgotcode",
+    "total_prs": 1,
+    "first_pr": "2026-05-28T15:19:45.593Z",
+    "last_pr": "2026-05-28T15:19:45.593Z"
+  },
+  {
+    "username": "a918124259a",
+    "total_prs": 1,
+    "first_pr": "2026-05-28T15:39:10.599Z",
+    "last_pr": "2026-05-28T15:39:10.599Z"
+  },
+  {
+    "username": "misakaAron",
+    "total_prs": 1,
+    "first_pr": "2026-05-28T17:56:26.471Z",
+    "last_pr": "2026-05-28T17:56:26.471Z"
   }
 ]
