@@ -630,6 +630,12 @@
     "last_pr": "2026-05-27T02:17:30.464Z"
   },
   {
+    "username": "barnacleagent-svg",
+    "total_prs": 6,
+    "first_pr": "2026-05-30T07:09:25.857Z",
+    "last_pr": "2026-05-30T07:52:45.836Z"
+  },
+  {
     "username": "FJ-CX",
     "total_prs": 5,
     "first_pr": "2026-05-13T15:11:20Z",
@@ -742,12 +748,6 @@
     "total_prs": 5,
     "first_pr": "2026-05-26T10:06:55.143Z",
     "last_pr": "2026-05-27T10:42:53.642Z"
-  },
-  {
-    "username": "barnacleagent-svg",
-    "total_prs": 5,
-    "first_pr": "2026-05-30T07:09:25.857Z",
-    "last_pr": "2026-05-30T07:49:08.922Z"
   },
   {
     "username": "spqrcode",
