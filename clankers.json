@@ -139,9 +139,9 @@
   },
   {
     "username": "0xjc65eth",
-    "total_prs": 39,
+    "total_prs": 40,
     "first_pr": "2026-05-29T08:31:44.342Z",
-    "last_pr": "2026-06-01T18:22:37.121Z"
+    "last_pr": "2026-06-02T06:52:54.315Z"
   },
   {
     "username": "JeremyZeng77",
@@ -234,6 +234,12 @@
     "last_pr": "2026-05-21T06:47:36.509Z"
   },
   {
+    "username": "lry3069-afk",
+    "total_prs": 25,
+    "first_pr": "2026-05-25T03:45:15.005Z",
+    "last_pr": "2026-06-02T03:18:25.298Z"
+  },
+  {
     "username": "Xiaoqiang-Huang",
     "total_prs": 23,
     "first_pr": "2026-05-15T17:11:10.002Z",
@@ -270,10 +276,10 @@
     "last_pr": "2026-05-22T18:47:29.993Z"
   },
   {
-    "username": "lry3069-afk",
+    "username": "KHHH2312",
     "total_prs": 21,
-    "first_pr": "2026-05-25T03:45:15.005Z",
-    "last_pr": "2026-06-01T23:25:11.861Z"
+    "first_pr": "2026-05-30T18:45:21.838Z",
+    "last_pr": "2026-06-02T03:02:36.911Z"
   },
   {
     "username": "tcuong53-cell",
@@ -298,12 +304,6 @@
     "total_prs": 19,
     "first_pr": "2026-05-28T22:07:39.551Z",
     "last_pr": "2026-05-29T01:09:03.806Z"
-  },
-  {
-    "username": "KHHH2312",
-    "total_prs": 19,
-    "first_pr": "2026-05-30T18:45:21.838Z",
-    "last_pr": "2026-06-02T01:34:26.334Z"
   },
   {
     "username": "shengtenghou4-star",
@@ -1990,6 +1990,12 @@
     "total_prs": 1,
     "first_pr": "2026-06-01T14:03:28.203Z",
     "last_pr": "2026-06-01T14:03:28.203Z"
+  },
+  {
+    "username": "Chillzyg",
+    "total_prs": 1,
+    "first_pr": "2026-06-02T04:50:27.912Z",
+    "last_pr": "2026-06-02T04:50:27.912Z"
   },
   {
     "username": "MichisGitIsKing",
