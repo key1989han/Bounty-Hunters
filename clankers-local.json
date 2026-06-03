@@ -1248,6 +1248,12 @@
     "last_pr": "2026-06-02T15:12:30.435Z"
   },
   {
+    "username": "promptpolish-ai",
+    "total_prs": 2,
+    "first_pr": "2026-06-03T22:53:03.425Z",
+    "last_pr": "2026-06-03T22:54:29.429Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1780,11 +1786,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-03T15:37:42.875Z",
     "last_pr": "2026-06-03T15:37:42.875Z"
-  },
-  {
-    "username": "promptpolish-ai",
-    "total_prs": 1,
-    "first_pr": "2026-06-03T22:53:03.425Z",
-    "last_pr": "2026-06-03T22:53:03.425Z"
   }
 ]
