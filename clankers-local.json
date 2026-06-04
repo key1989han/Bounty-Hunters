@@ -1260,6 +1260,12 @@
     "last_pr": "2026-06-02T15:12:30.435Z"
   },
   {
+    "username": "laoliLee222",
+    "total_prs": 2,
+    "first_pr": "2026-06-04T10:18:39.060Z",
+    "last_pr": "2026-06-04T10:32:17.311Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -1792,11 +1798,5 @@
     "total_prs": 1,
     "first_pr": "2026-06-04T06:46:57.589Z",
     "last_pr": "2026-06-04T06:46:57.589Z"
-  },
-  {
-    "username": "laoliLee222",
-    "total_prs": 1,
-    "first_pr": "2026-06-04T10:18:39.060Z",
-    "last_pr": "2026-06-04T10:18:39.060Z"
   }
 ]
