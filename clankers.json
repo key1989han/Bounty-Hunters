@@ -426,6 +426,12 @@
     "last_pr": "2026-05-19T09:58:25.671Z"
   },
   {
+    "username": "scotia1973-bot",
+    "total_prs": 18,
+    "first_pr": "2026-07-03T20:32:07.434Z",
+    "last_pr": "2026-07-03T21:24:02.975Z"
+  },
+  {
     "username": "justusaugust",
     "total_prs": 17,
     "first_pr": "2026-05-25T06:26:55.284Z",
@@ -754,12 +760,6 @@
     "total_prs": 10,
     "first_pr": "2026-06-18T04:24:14.256Z",
     "last_pr": "2026-06-20T08:12:53.856Z"
-  },
-  {
-    "username": "scotia1973-bot",
-    "total_prs": 10,
-    "first_pr": "2026-07-03T20:32:07.434Z",
-    "last_pr": "2026-07-03T20:54:49.643Z"
   },
   {
     "username": "digzrow-coder",
@@ -1284,6 +1284,12 @@
     "last_pr": "2026-05-21T16:04:04.468Z"
   },
   {
+    "username": "hanu-14",
+    "total_prs": 5,
+    "first_pr": "2026-07-03T19:23:53.560Z",
+    "last_pr": "2026-07-03T21:50:10.520Z"
+  },
+  {
     "username": "spqrcode",
     "total_prs": 4,
     "first_pr": "2026-05-14T12:12:04.319Z",
@@ -1696,12 +1702,6 @@
     "total_prs": 3,
     "first_pr": "2026-06-21T03:12:36.699Z",
     "last_pr": "2026-06-21T03:17:25.795Z"
-  },
-  {
-    "username": "hanu-14",
-    "total_prs": 3,
-    "first_pr": "2026-07-03T19:23:53.560Z",
-    "last_pr": "2026-07-03T20:43:50.493Z"
   },
   {
     "username": "Saumya-Verma123",
@@ -2782,5 +2782,11 @@
     "total_prs": 1,
     "first_pr": "2026-06-26T07:27:38.579Z",
     "last_pr": "2026-06-26T07:27:38.579Z"
+  },
+  {
+    "username": "dev-nana27",
+    "total_prs": 1,
+    "first_pr": "2026-07-03T21:51:31.376Z",
+    "last_pr": "2026-07-03T21:51:31.376Z"
   }
 ]
