@@ -1674,6 +1674,12 @@
     "last_pr": "2026-06-30T04:31:50.306Z"
   },
   {
+    "username": "luccas12348486",
+    "total_prs": 2,
+    "first_pr": "2026-07-05T15:08:20.637Z",
+    "last_pr": "2026-07-05T15:08:32.125Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -2332,11 +2338,5 @@
     "total_prs": 1,
     "first_pr": "2026-07-05T14:47:09.023Z",
     "last_pr": "2026-07-05T14:47:09.023Z"
-  },
-  {
-    "username": "luccas12348486",
-    "total_prs": 1,
-    "first_pr": "2026-07-05T15:08:20.637Z",
-    "last_pr": "2026-07-05T15:08:20.637Z"
   }
 ]
