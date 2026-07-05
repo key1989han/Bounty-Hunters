@@ -312,6 +312,12 @@
     "last_pr": "2026-05-21T06:47:36.509Z"
   },
   {
+    "username": "nexicturbo",
+    "total_prs": 25,
+    "first_pr": "2026-05-13T06:53:32Z",
+    "last_pr": "2026-07-05T17:59:50.361Z"
+  },
+  {
     "username": "lry3069-afk",
     "total_prs": 25,
     "first_pr": "2026-05-25T03:45:15.005Z",
@@ -382,12 +388,6 @@
     "total_prs": 20,
     "first_pr": "2026-05-16T04:01:59.508Z",
     "last_pr": "2026-05-16T09:45:46.427Z"
-  },
-  {
-    "username": "nexicturbo",
-    "total_prs": 20,
-    "first_pr": "2026-05-13T06:53:32Z",
-    "last_pr": "2026-07-05T16:58:12.157Z"
   },
   {
     "username": "nkar123412-hub",
@@ -1320,6 +1320,12 @@
     "last_pr": "2026-05-21T16:04:04.468Z"
   },
   {
+    "username": "AMEOBIUS",
+    "total_prs": 5,
+    "first_pr": "2026-07-05T06:08:36.853Z",
+    "last_pr": "2026-07-05T17:46:00.891Z"
+  },
+  {
     "username": "spqrcode",
     "total_prs": 4,
     "first_pr": "2026-05-14T12:12:04.319Z",
@@ -1492,12 +1498,6 @@
     "total_prs": 4,
     "first_pr": "2026-06-22T16:13:23.721Z",
     "last_pr": "2026-06-22T16:51:15.184Z"
-  },
-  {
-    "username": "AMEOBIUS",
-    "total_prs": 4,
-    "first_pr": "2026-07-05T06:08:36.853Z",
-    "last_pr": "2026-07-05T06:52:28.592Z"
   },
   {
     "username": "AidenPeerce",
@@ -2656,6 +2656,12 @@
     "total_prs": 1,
     "first_pr": "2026-07-05T14:47:09.023Z",
     "last_pr": "2026-07-05T14:47:09.023Z"
+  },
+  {
+    "username": "Synteri",
+    "total_prs": 1,
+    "first_pr": "2026-07-05T17:11:57.680Z",
+    "last_pr": "2026-07-05T17:11:57.680Z"
   },
   {
     "username": "MichisGitIsKing",
