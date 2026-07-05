@@ -474,6 +474,12 @@
     "last_pr": "2026-06-03T13:50:13.670Z"
   },
   {
+    "username": "nexicturbo",
+    "total_prs": 15,
+    "first_pr": "2026-05-13T06:53:32Z",
+    "last_pr": "2026-07-05T14:58:10.444Z"
+  },
+  {
     "username": "callmekidz",
     "total_prs": 14,
     "first_pr": "2026-05-13T19:54:10Z",
@@ -916,6 +922,12 @@
     "total_prs": 8,
     "first_pr": "2026-06-05T11:12:18.548Z",
     "last_pr": "2026-06-05T12:43:00.167Z"
+  },
+  {
+    "username": "wousp112",
+    "total_prs": 8,
+    "first_pr": "2026-07-05T12:33:31.259Z",
+    "last_pr": "2026-07-05T14:28:18.294Z"
   },
   {
     "username": "Karry2019web",
@@ -1692,6 +1704,12 @@
     "last_pr": "2026-07-03T22:27:55.454Z"
   },
   {
+    "username": "luccas12348486",
+    "total_prs": 3,
+    "first_pr": "2026-07-05T15:08:20.637Z",
+    "last_pr": "2026-07-05T15:08:41.239Z"
+  },
+  {
     "username": "huthoinguyn",
     "total_prs": 3,
     "first_pr": "2026-05-13T08:10:47Z",
@@ -2104,12 +2122,6 @@
     "total_prs": 1,
     "first_pr": "2026-05-13T13:14:53Z",
     "last_pr": "2026-05-13T13:14:53Z"
-  },
-  {
-    "username": "nexicturbo",
-    "total_prs": 1,
-    "first_pr": "2026-05-13T06:53:32Z",
-    "last_pr": "2026-05-13T06:53:32Z"
   },
   {
     "username": "nishantgoyal01",
@@ -2640,10 +2652,10 @@
     "last_pr": "2026-07-05T00:49:46.997Z"
   },
   {
-    "username": "wousp112",
+    "username": "alor29",
     "total_prs": 1,
-    "first_pr": "2026-07-05T12:33:31.259Z",
-    "last_pr": "2026-07-05T12:33:31.259Z"
+    "first_pr": "2026-07-05T14:47:09.023Z",
+    "last_pr": "2026-07-05T14:47:09.023Z"
   },
   {
     "username": "MichisGitIsKing",
