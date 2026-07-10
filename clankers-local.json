@@ -1050,6 +1050,12 @@
     "last_pr": "2026-07-05T15:09:01.477Z"
   },
   {
+    "username": "hanu-14",
+    "total_prs": 5,
+    "first_pr": "2026-07-10T15:50:07.870Z",
+    "last_pr": "2026-07-10T16:37:07.979Z"
+  },
+  {
     "username": "spqrcode",
     "total_prs": 4,
     "first_pr": "2026-05-14T12:12:04.319Z",
@@ -1192,12 +1198,6 @@
     "total_prs": 4,
     "first_pr": "2026-07-05T00:49:46.997Z",
     "last_pr": "2026-07-06T02:32:59.576Z"
-  },
-  {
-    "username": "hanu-14",
-    "total_prs": 4,
-    "first_pr": "2026-07-10T15:50:07.870Z",
-    "last_pr": "2026-07-10T16:24:14.075Z"
   },
   {
     "username": "AidenPeerce",
