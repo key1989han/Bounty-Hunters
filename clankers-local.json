@@ -1704,6 +1704,12 @@
     "last_pr": "2026-07-10T17:38:39.815Z"
   },
   {
+    "username": "FhiPunkVn",
+    "total_prs": 2,
+    "first_pr": "2026-07-11T04:07:39.443Z",
+    "last_pr": "2026-07-11T06:27:04.002Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -2374,11 +2380,5 @@
     "total_prs": 1,
     "first_pr": "2026-07-08T08:23:20.932Z",
     "last_pr": "2026-07-08T08:23:20.932Z"
-  },
-  {
-    "username": "FhiPunkVn",
-    "total_prs": 1,
-    "first_pr": "2026-07-11T04:07:39.443Z",
-    "last_pr": "2026-07-11T04:07:39.443Z"
   }
 ]
