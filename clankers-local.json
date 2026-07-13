@@ -1728,6 +1728,12 @@
     "last_pr": "2026-07-10T17:38:39.815Z"
   },
   {
+    "username": "ardha27",
+    "total_prs": 2,
+    "first_pr": "2026-07-13T09:46:17.539Z",
+    "last_pr": "2026-07-13T09:49:03.709Z"
+  },
+  {
     "username": "ErenCankutUYSAL",
     "total_prs": 1,
     "first_pr": "2026-05-13T19:25:27Z",
@@ -2416,11 +2422,5 @@
     "total_prs": 1,
     "first_pr": "2026-07-12T10:04:42.871Z",
     "last_pr": "2026-07-12T10:04:42.871Z"
-  },
-  {
-    "username": "ardha27",
-    "total_prs": 1,
-    "first_pr": "2026-07-13T09:46:17.539Z",
-    "last_pr": "2026-07-13T09:46:17.539Z"
   }
 ]
