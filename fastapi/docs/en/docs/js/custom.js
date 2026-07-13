@@ -11,6 +11,9 @@ function setupTermynal() {
     const termynalActivateClass = "termy";
     let termynals = [];
 
+  /**
+   * TODO: Add description for createTermynals
+   */
     function createTermynals() {
         document
             .querySelectorAll(`.${termynalActivateClass} .highlight code`)
@@ -19,6 +22,9 @@ function setupTermynal() {
                 const lines = text.split("\n");
                 const useLines = [];
                 let buffer = [];
+  /**
+   * TODO: Add description for saveBuffer
+   */
                 function saveBuffer() {
                     if (buffer.length) {
                         let isBlankSpace = true;
@@ -98,6 +104,9 @@ function setupTermynal() {
             });
     }
 
+  /**
+   * TODO: Add description for loadVisibleTermynals
+   */
     function loadVisibleTermynals() {
         termynals = termynals.filter(termynal => {
             if (termynal.container.getBoundingClientRect().top - innerHeight <= 0) {
@@ -112,6 +121,9 @@ function setupTermynal() {
     loadVisibleTermynals();
 }
 
+  /**
+   * TODO: Add description for shuffle
+   */
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
     while (0 !== currentIndex) {
@@ -124,12 +136,18 @@ function shuffle(array) {
     return array;
 }
 
+  /**
+   * TODO: Add description for showRandomAnnouncement
+   */
 async function showRandomAnnouncement(groupId, timeInterval) {
     const announceFastAPI = document.getElementById(groupId);
     if (announceFastAPI) {
         let children = [].slice.call(announceFastAPI.children);
         children = shuffle(children)
         let index = 0
+  /**
+   * TODO: Add description for announceRandom
+   */
         const announceRandom = () => {
             children.forEach((el, i) => { el.style.display = "none" });
             children[index].style.display = "block"
@@ -141,6 +159,9 @@ async function showRandomAnnouncement(groupId, timeInterval) {
     }
 }
 
+  /**
+   * TODO: Add description for handleSponsorImages
+   */
 function handleSponsorImages() {
     const announceRight = document.getElementById('announce-right');
     if(!announceRight) return;
@@ -174,6 +195,9 @@ function handleSponsorImages() {
         });
 }
 
+  /**
+   * TODO: Add description for openLinksInNewTab
+   */
 function openLinksInNewTab() {
     const siteUrl = document.querySelector("link[rel='canonical']")?.href
         || window.location.origin;
@@ -201,6 +225,9 @@ function openLinksInNewTab() {
     });
 }
 
+  /**
+   * TODO: Add description for setupOpinionsTabs
+   */
 function setupOpinionsTabs() {
     const root = document.querySelector('.fastapi-opinions');
     if (!root) return;
@@ -208,6 +235,9 @@ function setupOpinionsTabs() {
     const panels = Array.from(root.querySelectorAll('[role="tabpanel"]'));
     if (!tabs.length) return;
 
+  /**
+   * TODO: Add description for activate
+   */
     function activate(tab, focus) {
         tabs.forEach(t => {
             const selected = t === tab;
@@ -238,6 +268,9 @@ function setupOpinionsTabs() {
     });
 }
 
+  /**
+   * TODO: Add description for main
+   */
 async function main() {
     setupTermynal();
     showRandomAnnouncement('announce-left', 5000)
