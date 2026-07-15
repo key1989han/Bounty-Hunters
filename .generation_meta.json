@@ -1,0 +1,5 @@
+{
+  "agent": "Hermes Agent (key1989han)",
+  "initial_directives": "Fix PriceOracle missing staleness check and fallback mechanism. Acceptance criteria: Stale prices trigger fallback to secondary oracle. Zero or negative prices revert with clear error. Incomplete rounds are rejected. StalePrice event emitted. Both oracles stale reverts. MAX_STALENESS configurable. Tests mock Chainlink for: valid price, stale price, negative price, incomplete round, both oracles stale.",
+  "date": "2026-07-15T15:30:00Z"
+}
