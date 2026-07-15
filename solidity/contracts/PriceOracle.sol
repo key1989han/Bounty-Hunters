@@ -14,34 +14,91 @@ interface AggregatorV3Interface {
 
 contract PriceOracle {
     AggregatorV3Interface public primaryFeed;
+    AggregatorV3Interface public fallbackFeed;
     address public owner;
     uint256 public MAX_STALENESS = 3600;
 
     event PriceQueried(int256 price, uint256 timestamp);
+    event StalePrice(address indexed oracle, uint256 lastUpdate);
 
-    constructor(address _primaryFeed) {
+    error InvalidPrice();
+    error IncompleteRound();
+    error StalePriceError(uint256 lastUpdate);
+    error BothOraclesStale();
+
+    constructor(address _primaryFeed, address _fallbackFeed) {
         primaryFeed = AggregatorV3Interface(_primaryFeed);
+        fallbackFeed = AggregatorV3Interface(_fallbackFeed);
         owner = msg.sender;
     }
 
-    // BUG: No staleness check on updatedAt
-    // BUG: No check for negative/zero price
-    // BUG: No round completeness validation
-    // BUG: No fallback oracle
     function getLatestPrice() external view returns (int256) {
+        return _getPriceFromFeed(primaryFeed);
+    }
+
+    function getLatestPriceWithFallback() external returns (int256) {
+        (bool success, int256 price) = _tryGetPrice(primaryFeed);
+        if (success) {
+            return price;
+        }
+
+        (, , , uint256 primaryUpdatedAt, ) = primaryFeed.latestRoundData();
+        emit StalePrice(address(primaryFeed), primaryUpdatedAt);
+
+        (bool fbSuccess, int256 fbPrice) = _tryGetPrice(fallbackFeed);
+        if (fbSuccess) {
+            return fbPrice;
+        }
+
+        revert BothOraclesStale();
+    }
+
+    function _getPriceFromFeed(AggregatorV3Interface feed) internal view returns (int256) {
         (
             uint80 roundId,
             int256 price,
             ,
             uint256 updatedAt,
             uint80 answeredInRound
-        ) = primaryFeed.latestRoundData();
+        ) = feed.latestRoundData();
 
-        // Missing: require(price > 0)
-        // Missing: require(answeredInRound >= roundId)
-        // Missing: require(block.timestamp - updatedAt < MAX_STALENESS)
+        if (answeredInRound < roundId) {
+            revert IncompleteRound();
+        }
+
+        if (price <= 0) {
+            revert InvalidPrice();
+        }
+
+        if (block.timestamp - updatedAt >= MAX_STALENESS) {
+            revert StalePriceError(updatedAt);
+        }
 
         return price;
+    }
+
+    function _tryGetPrice(AggregatorV3Interface feed) internal view returns (bool success, int256 price) {
+        (
+            uint80 roundId,
+            int256 answer,
+            ,
+            uint256 updatedAt,
+            uint80 answeredInRound
+        ) = feed.latestRoundData();
+
+        if (answeredInRound < roundId) {
+            return (false, 0);
+        }
+
+        if (answer <= 0) {
+            return (false, 0);
+        }
+
+        if (block.timestamp - updatedAt >= MAX_STALENESS) {
+            return (false, 0);
+        }
+
+        return (true, answer);
     }
 
     function getDecimals() external view returns (uint8) {
