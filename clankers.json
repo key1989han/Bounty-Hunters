@@ -7,9 +7,9 @@
   },
   {
     "username": "ardha27",
-    "total_prs": 247,
+    "total_prs": 251,
     "first_pr": "2026-07-13T09:46:17.539Z",
-    "last_pr": "2026-07-15T14:07:41.363Z"
+    "last_pr": "2026-07-15T17:03:52.364Z"
   },
   {
     "username": "Vincent1-p",
@@ -654,6 +654,12 @@
     "last_pr": "2026-06-08T05:38:31.984Z"
   },
   {
+    "username": "elevasyncsolutions-jpg",
+    "total_prs": 12,
+    "first_pr": "2026-07-14T21:11:53.419Z",
+    "last_pr": "2026-07-15T16:50:13.431Z"
+  },
+  {
     "username": "Ahmadkhattak1",
     "total_prs": 11,
     "first_pr": "2026-05-13T06:55:14Z",
@@ -790,12 +796,6 @@
     "total_prs": 10,
     "first_pr": "2026-07-03T21:51:31.376Z",
     "last_pr": "2026-07-05T08:09:21.757Z"
-  },
-  {
-    "username": "elevasyncsolutions-jpg",
-    "total_prs": 10,
-    "first_pr": "2026-07-14T21:11:53.419Z",
-    "last_pr": "2026-07-14T21:17:02.316Z"
   },
   {
     "username": "digzrow-coder",
